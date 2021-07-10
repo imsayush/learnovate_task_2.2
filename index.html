@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content=
+		"width=device-width, initial-scale=1.0">
+	<title>
+		Learnovate
+	</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1 style="text-align: center;">Learnovate Internship Survey Form</h1>
+    <div class="image">
+        <img class="logo" src=".//img/learnovate.jpg" alt="">
+    </div>
+	<form id="form">
+
+		<div class="form-control">
+			<label for="fname" id="label-name">
+				First Name
+			</label>
+			<input type="text" id="name" placeholder="Enter your first name" required />
+		</div>
+
+        <div class="form-control">
+			<label for="lname" id="label-name">
+			    Last Name
+			</label>
+			<input type="text" id="name" placeholder="Enter your  last name" />
+		</div>
+
+		<div class="form-control">
+			<label for="email" id="label-email">E-mail</label>
+			<input type="email" id="email" placeholder="Enter your email"  required/>
+		</div>
+
+		<div class="form-control">
+			<label for="age" id="label-age">
+				Age
+			</label>
+
+			
+			<input type="text" id="age" placeholder="Enter your age" required/>
+		</div>
+
+		<div class="form-control">
+			<label for="role" id="label-role">
+				Which option best describes you?
+			</label>
+			<select name="role" id="role" >
+				<option value="student">Intern</option>
+				<option value="intern">Student</option>
+				<option value="professional">Professional</option>
+				<option value="other">Other</option>
+			</select>
+		</div>
+
+		<div class="form-control">
+			<label>
+				Would you recommed Learnovate to anyone?
+			</label>
+
+			
+			<label for="recommed-1">
+				<input type="radio"
+					id="recommed-1"
+					name="recommed"
+					required>Highly Recommended</input>
+			</label>
+			<label for="recommed-2">
+				<input type="radio"
+					id="recommed-2"
+					name="recommed">Recommended</input>
+			</label>
+			<label for="recommed-3">
+				<input type="radio"
+					id="recommed-3"
+					name="recommed">Not Recommended</input>
+			</label>
+		</div>
+
+		<div class="form-control">
+			<label>Check the topics you learnt here
+				<small>(Check all that apply)</small>
+			</label>
+			
+			<label for="inp-1">
+				<input type="checkbox"
+					name="inp"
+					required >PSD to HTML</input></label>
+			<label for="inp-2">
+				<input type="checkbox"
+					name="inp">Working Collaboratively</input></label>
+			<label for="inp-3">
+				<input type="checkbox"
+					name="inp">Version Control</input></label>
+			<label for="inp-4">
+				<input type="checkbox"
+					name="inp">Server Management</input></label>
+			<label for="inp-5">
+				<input type="checkbox"
+					name="inp">Live Project</input></label>
+			
+		</div>
+
+        <div class="form-control">
+			<label>
+				Rate Us Please ! 
+			</label>
+
+			
+			<label for="star-1">
+				<input type="radio"
+					id="star-1"
+					name="Rate" required>1 star</input>
+			</label>
+			<label for="star-2">
+				<input type="radio"
+					id="star-2"
+					name="Rate">2 star</input>
+			</label>
+			<label for="star-3">
+				<input type="radio"
+					id="star-3"
+					name="Rate">3 star</input>
+			</label>
+            <label for="star-4">
+				<input type="radio"
+					id="star-3"
+					name="Rate">4 star</input>
+			</label>
+            <label for="star-5">
+				<input type="radio"
+					id="star-3"
+					name="Rate">5 star</input>
+			</label>
+		</div>
+
+		<div class="form-control">
+			<label for="comment">
+				Any comments or suggestions!!!
+			</label>
+
+			
+			<textarea name="comment" id="comment" placeholder="Enter your comment here">
+			</textarea>
+		</div>
+        
+		
+		<div class="button1">
+			<button class="btn">
+                Submit
+            </button>
+		</div>
+        
+	</form>
+</body>
+
+</html>

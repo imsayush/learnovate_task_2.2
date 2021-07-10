@@ -1,0 +1,87 @@
+body {
+			
+            
+    background-color: aqua;
+    
+    font-family: 'Baloo Thambi 2', cursive;
+    
+}
+.image{
+    text-align: center;
+    
+}
+.logo{
+    height: 3cm;
+    border-radius: 10px;
+}
+
+
+form {
+    background-color: aqua;
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 30px 20px;
+    box-shadow: 2px 5px 10px aqua;
+    border-radius: 30px;
+}
+
+
+.form-control {
+    text-align: left;
+    margin-bottom: 25px;
+    
+}
+
+
+.form-control label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+    border: 1px solid #777;
+    border-radius: 10px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+}
+.form-control textarea{
+    border: 1px solid #777;
+    border-radius: 10px;
+    font-family: inherit;
+    padding: 10px;
+    display: block;
+    width: 95%;
+    height: 100px;
+}
+
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] {
+    display: inline-block;
+    width:auto;           
+}
+
+
+
+.button1{
+text-align: center;
+}
+.btn{
+font-family: 'Baloo Thambi 2', cursive;
+margin: 0px 9px;
+background-color: black;
+color: white;
+padding: 4px 14px;
+border: 2px solid gray ;
+border-radius: 8px;
+cursor: pointer;
+}
+.btn:hover{
+background-color: aqua;
+color: black;
+}
